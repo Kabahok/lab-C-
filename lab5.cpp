@@ -70,10 +70,8 @@ int main() {
     cout << "Массив произведений макс и мин каждого столбца" << endl;
 
     for (int i = 0; i < m; i++) {
-
         cout << setw(6) << p[i];
-
     }
-
+    
     return 0;
 }
