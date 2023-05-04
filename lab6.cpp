@@ -45,6 +45,8 @@ void output_mas(mas a, int n) {
 }
 
 int main() {
+    srand(time(nullptr));
+    
     matr a, b;
     mas p, q;
     
