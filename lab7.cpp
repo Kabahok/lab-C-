@@ -3,6 +3,7 @@
 using namespace std;
 const int A = 1000;
 const int B = 5000;
+const int SIZE = 20;
 
 struct Boot {
     string article;
@@ -10,8 +11,6 @@ struct Boot {
     int count;
     int price;
 };
-
-const int SIZE = 20;
 
 void BoubleSort(Boot boots[], int size) {
     
