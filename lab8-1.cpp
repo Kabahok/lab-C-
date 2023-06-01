@@ -26,7 +26,7 @@ int main() {
    string input = "This is no a test, no just a sample string";
    cout << "Введенная строка: " + input << endl << endl;
    string output = f(input);
-   cout << "Итоговая строка: " << output << std::endl;
+   cout << "Итоговая строка: " << output << endl;
 
    return 0;
 }
